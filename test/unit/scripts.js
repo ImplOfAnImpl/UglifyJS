@@ -7,8 +7,6 @@ var fs = require('fs'),
 	path = require('path'),
 	pro = uglify.uglify;
 
-var Script = process.binding('evals').Script;
-
 var scriptsPath = __dirname;
 
 function compress(code) {
